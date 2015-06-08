@@ -322,7 +322,7 @@ void fitWe(const TString  outputDir,   // output directory
   cout << "   sig: " << hWenuMetm->Integral() << endl;
   cout << "   EWK: " << hEWKMetm->Integral() << endl;
   cout << "   qcd: " << hDataMetm->Integral()-hWenuMetm->Integral()-hEWKMetm->Integral() << endl;
-/*
+
   // Save PDFs for Combine
 
   RooDataHist dataMet("dataMet", "dataMet", RooArgSet(pfmet),hDataMet);
@@ -668,7 +668,7 @@ plotMetm.SetYRange(0.1,5000);
   cout << "  <> Output saved in " << outputDir << "/" << endl;    
   cout << endl;     
   
-  gBenchmark->Show("fitWe"); */
+  gBenchmark->Show("fitWe");
 }
 
 
