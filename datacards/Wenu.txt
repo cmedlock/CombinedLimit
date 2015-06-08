@@ -13,8 +13,8 @@ observation            -1.0
 bin                              Wenu        Wenu        Wenu
 process                             0           1           2
 process                           sig         EWK         qcd
-#  integral of MET hist for sig, sig*cewk for EWK, and estimate used in Kevin's code for qcd
-rate                          81294.5      9527.6      43755.3
+#  integral of MET hist for sig and EWK, integral(data)-integral(sig)-integral(EWK) for qcd
+rate                          81294.5      9527.6     55029.0
 # "answers" (output of Kevin's code, yields in 8 TeV AN)
 #rate                            75082      8800.0       61698
 ----------------------------------------------------------------------------------------------------------------------------------
