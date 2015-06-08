@@ -126,10 +126,10 @@ void fitWe(const TString  outputDir,   // output directory
   vector<TString> fnamev;
   vector<Int_t>   typev;
   
-  fnamev.push_back("./ntuples/data_select.root"); typev.push_back(eData);
-  fnamev.push_back("./ntuples/we_select.root");   typev.push_back(eWenu);
-  fnamev.push_back("./ntuples/ewk_select.root");  typev.push_back(eEWK);
-  fnamev.push_back("./ntuples/top_select.root");  typev.push_back(eEWK);
+  fnamev.push_back("/data/blue/ksung/EWKAna/8TeV/Selection/Wenu/ntuples/data_select.root"); typev.push_back(eData);
+  fnamev.push_back("/data/blue/ksung/EWKAna/8TeV/Selection/Wenu//ntuples/we_select.root");   typev.push_back(eWenu);
+  fnamev.push_back("/data/blue/ksung/EWKAna/8TeV/Selection/Wenu//ntuples/ewk_select.root");  typev.push_back(eEWK);
+  fnamev.push_back("/data/blue/ksung/EWKAna/8TeV/Selection/Wenu//ntuples/top_select.root");  typev.push_back(eEWK);
 
 
   //--------------------------------------------------------------------------------------------------------------
